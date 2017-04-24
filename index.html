@@ -10,7 +10,7 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <link href="favicon.ico" rel="shortcut icon" type="images/ax-icon">
 
-        <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,400i,700,700i" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
         <link rel="stylesheet" href="scss/main.css">
@@ -20,9 +20,17 @@
     <body>
 
         <header>
-            <img src="img/logo.svg" class="logo" alt="Springboard" />
+            <a href="#banner" class="logo"><img src="img/logo.svg" alt="Springboard" /></a>
             <span>Documentation</span>
         </header>
+
+        <div id="banner">
+            <div class="container">
+                <div class="content">
+                    <h1 class="jumbo">Lift your design process to the next level.</h1>
+                </div>
+            </div>
+        </div>
 
         <main>
             <div class="container">
@@ -48,7 +56,6 @@
                     <section id="intro">
                         <h2>Introduction</h2>
                         <p>Bacon ipsum dolor amet cow porchetta pork shank jerky fatback short ribs, tenderloin pork belly pork chop kielbasa beef jowl drumstick rump. Pancetta drumstick tail chuck capicola ham fatback porchetta sausage short ribs spare ribs. Pork chop drumstick flank kielbasa landjaeger spare ribs chuck. Meatloaf jerky spare ribs venison, beef ribeye chicken t-bone short loin. Chuck strip steak chicken bresaola shank andouille ham flank capicola cow burgdoggen meatball.</p>
-                        <img src="img/screens/style-masters.png" alt="" />
                     </section>
 
                     <section id="styleMasters">
@@ -60,15 +67,19 @@
                     <section id="symbols">
                         <h2>Symbols</h2>
                         <p>Bacon ipsum dolor amet cow porchetta pork shank jerky fatback short ribs, tenderloin pork belly pork chop kielbasa beef jowl drumstick rump. Pancetta drumstick tail chuck capicola ham fatback porchetta sausage short ribs spare ribs. Pork chop drumstick flank kielbasa landjaeger spare ribs chuck. Meatloaf jerky spare ribs venison, beef ribeye chicken t-bone short loin. Chuck strip steak chicken bresaola shank andouille ham flank capicola cow burgdoggen meatball.</p>
-                        <img src="img/screens/style-masters.png" alt="" />
+                        <img src="img/screens/symbols.png" alt="" />
 
                         <h3 id="definitions">Definitions</h3>
                         <p>Bacon ipsum dolor amet cow porchetta pork shank jerky fatback short ribs, tenderloin pork belly pork chop kielbasa beef jowl drumstick rump. Pancetta drumstick tail chuck capicola ham fatback porchetta sausage short ribs spare ribs. Pork chop drumstick flank kielbasa landjaeger spare ribs chuck. Meatloaf jerky spare ribs venison, beef ribeye chicken t-bone short loin. Chuck strip steak chicken bresaola shank andouille ham flank capicola cow burgdoggen meatball.</p>
-                        <img src="img/screens/style-masters.png" alt="" />
+                        <img src="img/screens/definitions-button.png" alt="" />
+                        <img src="img/screens/definitions-field.png" alt="" />
 
                         <h3 id="overrides">Overrides</h3>
                         <p>Bacon ipsum dolor amet cow porchetta pork shank jerky fatback short ribs, tenderloin pork belly pork chop kielbasa beef jowl drumstick rump. Pancetta drumstick tail chuck capicola ham fatback porchetta sausage short ribs spare ribs. Pork chop drumstick flank kielbasa landjaeger spare ribs chuck. Meatloaf jerky spare ribs venison, beef ribeye chicken t-bone short loin. Chuck strip steak chicken bresaola shank andouille ham flank capicola cow burgdoggen meatball.</p>
-                        <img src="img/screens/style-masters.png" alt="" />
+                        <div class="double-img">
+                            <img src="img/screens/overrides-button.png" alt="" />
+                            <img src="img/screens/overrides-field.png" alt="" />
+                        </div>
                     </section>
 
                     <section id="icons">
@@ -90,16 +101,21 @@
                     <section id="sharedLib">
                         <h2>Shared Library</h2>
                         <p>Bacon ipsum dolor amet cow porchetta pork shank jerky fatback short ribs, tenderloin pork belly pork chop kielbasa beef jowl drumstick rump. Pancetta drumstick tail chuck capicola ham fatback porchetta sausage short ribs spare ribs. Pork chop drumstick flank kielbasa landjaeger spare ribs chuck. Meatloaf jerky spare ribs venison, beef ribeye chicken t-bone short loin. Chuck strip steak chicken bresaola shank andouille ham flank capicola cow burgdoggen meatball.</p>
-                        <img src="img/screens/style-masters.png" alt="" />
+                        <div class="double-img">
+                            <img src="img/screens/shared-library.png" alt="" />
+                            <img src="img/screens/shared-library-2.png" alt="" />
+                        </div>
 
                         <p>Bacon ipsum dolor amet cow porchetta pork shank jerky fatback short ribs, tenderloin pork belly pork chop kielbasa beef jowl drumstick rump. Pancetta drumstick tail chuck capicola ham fatback porchetta sausage short ribs spare ribs. Pork chop drumstick flank kielbasa landjaeger spare ribs chuck. Meatloaf jerky spare ribs venison, beef ribeye chicken t-bone short loin. Chuck strip steak chicken bresaola shank andouille ham flank capicola cow burgdoggen meatball.</p>
-                        <img src="img/screens/style-masters.png" alt="" />
-                        <img src="img/screens/style-masters.png" alt="" />
                     </section>
                     </section>
                 </div>
             </div>
         </main>
+
+        <footer id="footer">
+            <small>Stay current with our updates: <a href="https://github.com/changecourse/sketch_boilerplate">https://github.com/changecourse/sketch_boilerplate</a></small>
+        </footer>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
